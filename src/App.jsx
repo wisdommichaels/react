@@ -2,6 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Name from './Components/Name'
+import Description from './Components/Description'
+import Image from './Components/Image'
+import Price from './Components/Price'
 
 function App() {
   const user = "Wisdom"
@@ -9,11 +13,10 @@ function App() {
 
   return (
     <section>
-      <div className="flex justify-center items-center flex-col m-auto ml-80">
-        <h1 className="text-blue-500 font-bold">Welcome to Gomycode</h1>
-        <p className="text-xl">My name is {user}</p>
-        <p className="text-blue-400 text-xl">My name is {user2}</p>
-      </div>
+        <Name/>
+        <Price/>
+        <Description/>
+        <Image/>
     </section>
   )
 }
