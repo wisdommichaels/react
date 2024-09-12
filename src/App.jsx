@@ -12,7 +12,7 @@ function App() {
   const user2 = "Micheal"
 
   return (
-    <section>
+    <section className='bg-slate-600 rounded-lg fle'>
         <Name/>
         <Price/>
         <Description/>

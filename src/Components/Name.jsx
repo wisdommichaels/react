@@ -1,5 +1,5 @@
 import React from 'react'
-import product from '../assets/product'
+import product from '../product'
 
 const Name = () => {
   return (

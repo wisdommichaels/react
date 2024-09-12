@@ -1,9 +1,9 @@
 import React from 'react'
-import product from '../assets/product'
+import product from '../product'
 
 const Image = () => {
   return (
-    <div>{product.image}</div>
+    <img src={product.imgUrl} alt="" className='w-40'/>
   )
 }
 
