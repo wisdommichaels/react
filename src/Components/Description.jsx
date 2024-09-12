@@ -3,7 +3,9 @@ import product from '../product'
 
 const Description = () => {
   return (
-    <div>{product.description}</div>
+    <div>
+      <h2 className='text-lg font-semibold'>{product.description}</h2>
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@ import product from '../product'
 
 const Image = () => {
   return (
-    <img src={product.imgUrl} alt="" className='w-40'/>
+    <img src={product.imgUrl} alt="" className='w-[300px] h-[300px] rounded-md' />
   )
 }
 

@@ -3,7 +3,9 @@ import product from '../product'
 
 const Price = () => {
   return (
-    <div>{product.price}</div>
+    <div>
+      <h2 className='text-[#A6B3FA] font-bold'>{product.price}</h2>
+    </div>
   )
 }
 

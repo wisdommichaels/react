@@ -12,11 +12,11 @@ function App() {
   const user2 = "Micheal"
 
   return (
-    <section className='bg-slate-600 rounded-lg fle'>
+    <section className='bg-slate-600 rounded-lg flex justify-center items-center flex-col w-1/3 m-auto mt-10 p-5'>
+        <Image/>
         <Name/>
         <Price/>
         <Description/>
-        <Image/>
     </section>
   )
 }
